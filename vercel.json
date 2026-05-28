@@ -1,0 +1,17 @@
+{
+  "framework": "laravel",
+  "buildCommand": "composer install && npm install && npm run build",
+  "outputDirectory": "public",
+  "env": {
+    "APP_KEY": "@APP_KEY",
+    "DB_CONNECTION": "@DB_CONNECTION",
+    "MAIL_MAILER": "@MAIL_MAILER",
+    "MAIL_HOST": "@MAIL_HOST",
+    "MAIL_PORT": "@MAIL_PORT",
+    "MAIL_USERNAME": "@MAIL_USERNAME",
+    "MAIL_PASSWORD": "@MAIL_PASSWORD",
+    "MAIL_FROM_ADDRESS": "@MAIL_FROM_ADDRESS",
+    "MAIL_FROM_NAME": "@MAIL_FROM_NAME",
+    "MAIL_ENCRYPTION": "@MAIL_ENCRYPTION"
+  }
+}
